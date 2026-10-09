@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="./assets/profile-banner-v2.svg" width="100%" alt="Ajan Muthuraj — Autonomous Drones and Multi-Robot Systems" />
+  <img src="./assets/profile-banner-v3.svg" width="100%" alt="Ajan Muthuraj — Autonomous Drones and Multi-Robot Systems" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ajanmuthuraj/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:ajanm2003@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/AjanM27?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/ajanmuthuraj/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0F766E?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://ajanm27.github.io/ajan-portfolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0D9488?style=for-the-badge&logo=react&logoColor=white"></a>
+  <a href="mailto:ajanm2003@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-115E59?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/AjanM27?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Repositories-134E4A?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 <h2 align="center">I build autonomous robots that explore, map, and coordinate.</h2>
@@ -31,25 +32,6 @@ Today, I am working toward that goal through autonomous-drone simulation,
 flight-control integration, 3D SLAM, exploration, controller optimization, and
 multi-drone experiments.
 
-## Flagship project
-
-### [Isaac Sim Autonomous Drone Stack](https://github.com/AjanM27/isaac-sim-drone-autonomy)
-
-A reproducible autonomy platform connecting **NVIDIA Isaac Sim, ArduPilot SITL,
-MAVROS, ROS 2 Jazzy, Ouster 3D LiDAR, RTAB-Map, and Docker**.
-
-| Capability | Implemented system |
-|---|---|
-| **Flight** | ArduPilot cascaded control, tuned hover/braking, camera-relative teleoperation |
-| **Perception** | RGB, IMU, upward/downward ToF, and Ouster OS1 3D LiDAR |
-| **Mapping** | Point-to-plane ICP odometry and probabilistic 3D OctoMap |
-| **Exploration** | Collision-aware 3D frontier planning, replanning, return-home, and landing |
-| **Scale** | Multi-drone physics scenes, fleet demonstrations, and autonomous PID optimization |
-| **Reproducibility** | One-command Ubuntu setup, containers, checksummed offline assets, CI, and benchmarks |
-
-> Current direction: efficient multi-drone exploration, map sharing, and
-> learning-based decision-making in previously unseen environments.
-
 ## Focus areas
 
 | Autonomy | Spatial intelligence | Multi-robot systems | Sim-to-real |
@@ -63,45 +45,57 @@ MAVROS, ROS 2 Jazzy, Ouster 3D LiDAR, RTAB-Map, and Docker**.
 
 | Project | Engineering contribution |
 |---|---|
+| **[Isaac Sim Autonomous Drone Stack](https://github.com/AjanM27/isaac-sim-drone-autonomy)** | A reproducible ArduPilot/ROS 2 platform for 3D SLAM, safe exploration, controller optimization, and multi-drone simulation. |
 | **[Dynamic Path Planning with Adaptive RRT*](https://github.com/AjanM27/Dynamic-Path-Planning-with-Adaptive-RRT-)** | Real-time replanning around static and moving obstacles, with RRT*, A*, Adaptive A*, and LPA* comparisons. |
 | **[Multi-Robot SLAM Navigation](https://github.com/AjanM27/Multi-Robot-SLAM-Navigation)** | Shared occupancy-grid mapping, decentralized flocking, deadlock recovery, and noise-robust swarm coordination. |
 | **[RL-Based Swarm Navigation](https://github.com/AjanM27/Swarm_RL_InterIIT)** | A ROS 2 and Gazebo workflow combining reinforcement learning, multi-robot simulation, visualization, and task assignment. |
 | **[Gesture-Controlled Defence Rover](https://github.com/AjanM27/Gesture-Controlled-Defence-Rover)** | An embedded robotics prototype integrating gesture sensing, wireless communication, mobile control, and a robotic arm. |
 
-## Technical foundation
+## Tools and technologies
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/ros2.svg" width="52" height="52" alt="ROS 2" title="ROS 2" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/python.svg" width="52" height="52" alt="Python" title="Python" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/cpp.svg" width="52" height="52" alt="C++" title="C++" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/docker.svg" width="52" height="52" alt="Docker" title="Docker" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/linux.svg" width="52" height="52" alt="Linux" title="Linux" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/pytorch.svg" width="52" height="52" alt="PyTorch" title="PyTorch" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/opencv.svg" width="52" height="52" alt="OpenCV" title="OpenCV" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/matlab.svg" width="52" height="52" alt="MATLAB" title="MATLAB" />
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/AjanM27/ajan-portfolio/main/public/tech-logos/arduino.svg" width="52" height="52" alt="Arduino" title="Arduino" />
+### Robotics, autonomy, and simulation
+
+<p>
+  <img alt="ROS 2" src="https://img.shields.io/badge/ROS_2-0F766E?style=flat-square&logo=ros&logoColor=white">
+  <img alt="Isaac Sim" src="https://img.shields.io/badge/Isaac_Sim-0F766E?style=flat-square&logo=nvidia&logoColor=white">
+  <img alt="ArduPilot" src="https://img.shields.io/badge/ArduPilot-0F766E?style=flat-square">
+  <img alt="MAVROS" src="https://img.shields.io/badge/MAVROS-0F766E?style=flat-square">
+  <img alt="Gazebo" src="https://img.shields.io/badge/Gazebo-0F766E?style=flat-square">
+  <img alt="RViz" src="https://img.shields.io/badge/RViz-0F766E?style=flat-square">
+  <img alt="RTAB-Map" src="https://img.shields.io/badge/RTAB--Map-0F766E?style=flat-square">
+  <img alt="Nav2" src="https://img.shields.io/badge/Nav2-0F766E?style=flat-square">
+  <img alt="MoveIt 2" src="https://img.shields.io/badge/MoveIt_2-0F766E?style=flat-square">
 </p>
 
-<p align="center">
-  <img alt="Isaac Sim" src="https://img.shields.io/badge/Isaac_Sim-6-76B900?style=flat-square&logo=nvidia&logoColor=white">
-  <img alt="ArduPilot" src="https://img.shields.io/badge/ArduPilot-SITL-1D4F91?style=flat-square">
-  <img alt="Gazebo" src="https://img.shields.io/badge/Gazebo-Simulation-F58113?style=flat-square">
-  <img alt="SLAM" src="https://img.shields.io/badge/SLAM-RTAB--Map-6246EA?style=flat-square">
-  <img alt="Motion Planning" src="https://img.shields.io/badge/Planning-RRT*_%7C_A*-0891B2?style=flat-square">
-  <img alt="Embedded" src="https://img.shields.io/badge/Embedded-ESP32_%7C_IMU-DC2626?style=flat-square">
+### Programming, learning, and perception
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-155E75?style=flat-square&logo=python&logoColor=white">
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-155E75?style=flat-square&logo=cplusplus&logoColor=white">
+  <img alt="MATLAB" src="https://img.shields.io/badge/MATLAB-155E75?style=flat-square">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-155E75?style=flat-square&logo=gnubash&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-155E75?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-155E75?style=flat-square&logo=react&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-155E75?style=flat-square&logo=pytorch&logoColor=white">
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-155E75?style=flat-square&logo=opencv&logoColor=white">
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-155E75?style=flat-square&logo=numpy&logoColor=white">
+  <img alt="Shapely" src="https://img.shields.io/badge/Shapely-155E75?style=flat-square">
 </p>
 
-**Robotics:** ROS 2, MAVROS, RViz, TF, Gazebo, Isaac Sim, ArduPilot, RTAB-Map<br>
-**Algorithms:** RRT/RRT*, A*, frontier exploration, PID control, SLAM, reinforcement learning<br>
-**Engineering:** Python, C++, MATLAB, Bash, Linux, Docker, Git/GitHub, Arduino, ESP32
+### Systems, acceleration, and hardware
+
+<p>
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-334155?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-334155?style=flat-square&logo=linux&logoColor=white">
+  <img alt="Git" src="https://img.shields.io/badge/Git-334155?style=flat-square&logo=git&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-334155?style=flat-square&logo=githubactions&logoColor=white">
+  <img alt="CUDA" src="https://img.shields.io/badge/CUDA-334155?style=flat-square&logo=nvidia&logoColor=white">
+  <img alt="CMake" src="https://img.shields.io/badge/CMake-334155?style=flat-square&logo=cmake&logoColor=white">
+  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-334155?style=flat-square&logo=arduino&logoColor=white">
+  <img alt="ESP32" src="https://img.shields.io/badge/ESP32-334155?style=flat-square&logo=espressif&logoColor=white">
+  <img alt="Fusion 360" src="https://img.shields.io/badge/Fusion_360-334155?style=flat-square&logo=autodesk&logoColor=white">
+  <img alt="EasyEDA" src="https://img.shields.io/badge/EasyEDA-334155?style=flat-square&logo=easyeda&logoColor=white">
+</p>
 
 ## Background
 
@@ -112,6 +106,7 @@ MAVROS, ROS 2 Jazzy, Ouster 3D LiDAR, RTAB-Map, and Docker**.
 
 <p align="center">
   <b>Interested in robotics, autonomy, simulation, and multi-agent systems?</b><br/>
+  <a href="https://ajanm27.github.io/ajan-portfolio/">Portfolio</a> ·
   <a href="mailto:ajanm2003@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/ajanmuthuraj/">LinkedIn</a> ·
   <a href="https://github.com/AjanM27?tab=repositories">All repositories</a>

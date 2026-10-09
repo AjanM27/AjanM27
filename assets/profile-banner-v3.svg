@@ -1,6 +1,6 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Ajan Muthuraj — Autonomous Drones and Multi-Robot Systems</title>
-  <desc id="desc">A technical robotics banner with a quadrotor, navigation path, and mapping grid.</desc>
+  <desc id="desc">A clean autonomous-robotics banner with a quadrotor and mapping grid.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
       <stop stop-color="#08111F"/>
@@ -14,19 +14,16 @@
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M36 0H0V36" stroke="#BDEFF3" stroke-opacity=".08"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
   <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
   <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
   <circle cx="1060" cy="30" r="180" fill="#22D3EE" fill-opacity=".05"/>
   <circle cx="1130" cy="280" r="220" fill="#34D399" fill-opacity=".06"/>
 
-  <path d="M70 239C160 190 200 255 285 210C362 169 408 199 466 151" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 11" opacity=".75"/>
-  <circle cx="70" cy="239" r="6" fill="#67E8F9"/>
-  <circle cx="466" cy="151" r="6" fill="#7EF2CB" filter="url(#glow)"/>
+  <rect x="52" y="66" width="4" height="132" rx="2" fill="url(#accent)"/>
+  <circle cx="990" cy="135" r="112" stroke="#67E8F9" stroke-opacity=".10" stroke-width="2"/>
+  <circle cx="990" cy="135" r="88" stroke="#7EF2CB" stroke-opacity=".14" stroke-width="2" stroke-dasharray="3 10"/>
+  <circle cx="990" cy="135" r="66" stroke="#67E8F9" stroke-opacity=".12" stroke-width="2"/>
 
   <g transform="translate(990 135)" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M-55 0H55M0-30V30"/>
