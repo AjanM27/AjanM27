@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner-v3.svg" width="100%" alt="Ajan Muthuraj — Autonomous Drones and Multi-Robot Systems" />
+  <img src="./assets/profile-banner-v4.svg" width="100%" alt="Ajan Muthuraj — Robotics, Humanoids, Swarm Systems, and AI" />
 </p>
 
 <p align="center">
@@ -9,37 +9,29 @@
   <a href="https://github.com/AjanM27?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Repositories-134E4A?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
-<h2 align="center">I build autonomous robots that explore, map, and coordinate.</h2>
+<h2 align="center">Anything and everything robotics.</h2>
 
 <p align="center">
-  Robotics and autonomous-systems engineer · Mechanical Engineering graduate, IIT Madras
+  Humanoids · Swarm robotics · AI &amp; computer vision · Autonomy · Control · Embedded systems
 </p>
 
-## Engineering north star
+## Robotics, end to end
 
-My long-term goal is to build **teams of aerial robots for search and rescue in
-unknown environments**—systems that can perceive in 3D, build and share maps,
-plan safely, coordinate under limited compute and communication, and transfer
-reliably from simulation to real hardware.
+I am interested in robotics as a whole. If a system can **sense, reason, move,
+learn, or collaborate**, I want to be involved in building it—from algorithms
+and simulation to electronics and real hardware.
 
-<pre>
-SENSING  →  STATE ESTIMATION  →  3D MAPPING  →  SAFE PLANNING  →  FLIGHT CONTROL
-                                       ↕
-                         MULTI-ROBOT COORDINATION
-</pre>
+I am especially drawn to **humanoid robots** and **swarm intelligence**, while
+my project work also spans autonomous navigation, AI, computer vision, control,
+SLAM, reinforcement learning, and embedded systems.
 
-Today, I am working toward that goal through autonomous-drone simulation,
-flight-control integration, 3D SLAM, exploration, controller optimization, and
-multi-drone experiments.
+## What I work across
 
-## Focus areas
-
-| Autonomy | Spatial intelligence | Multi-robot systems | Sim-to-real |
+| Humanoids & embodied systems | Swarms & multi-robot | AI & perception | Robot engineering |
 |---|---|---|---|
-| Motion planning | LiDAR perception | Shared mapping | Physics-based simulation |
-| Flight control | 3D SLAM | Task allocation | Reproducible deployment |
-| Frontier exploration | State estimation | Swarm coordination | Hardware integration |
-| Reinforcement learning | Occupancy mapping | Communication-aware autonomy | Validation and benchmarking |
+| Locomotion and manipulation | Coordination and task allocation | Computer vision and learning | Simulation and control |
+| Human-robot interaction | Shared mapping and planning | Reinforcement learning | Embedded systems and sensing |
+| Embodied intelligence | Decentralized autonomy | State estimation and SLAM | Prototyping and deployment |
 
 ## Selected work
 

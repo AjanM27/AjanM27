@@ -1,0 +1,47 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ajan Muthuraj — Robotics, Humanoids, Swarm Systems, and AI</title>
+  <desc id="desc">A clean robotics banner with a humanoid robot, swarm nodes, and engineering grid.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.52" stop-color="#10243A"/>
+      <stop offset="1" stop-color="#0B4A55"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="130" y1="55" x2="985" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#7EF2CB"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#BDEFF3" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1060" cy="30" r="180" fill="#22D3EE" fill-opacity=".05"/>
+  <circle cx="1130" cy="280" r="220" fill="#34D399" fill-opacity=".06"/>
+
+  <rect x="52" y="66" width="4" height="132" rx="2" fill="url(#accent)"/>
+  <g stroke="#7EF2CB" stroke-opacity=".34" stroke-width="2" stroke-dasharray="4 8">
+    <path d="M885 74L940 106M1094 73L1040 106M1112 220L1040 194M872 224L940 194"/>
+  </g>
+  <g fill="#67E8F9">
+    <circle cx="885" cy="74" r="7"/><circle cx="1094" cy="73" r="7"/>
+    <circle cx="1112" cy="220" r="7"/><circle cx="872" cy="224" r="7"/>
+  </g>
+
+  <g transform="translate(990 141)" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0-67V-57M-10-67H10"/>
+    <rect x="-31" y="-56" width="62" height="43" rx="13"/>
+    <circle cx="-12" cy="-35" r="3" fill="#7EF2CB" stroke="none"/>
+    <circle cx="12" cy="-35" r="3" fill="#7EF2CB" stroke="none"/>
+    <path d="M-12-23H12"/>
+    <rect x="-42" y="-2" width="84" height="72" rx="17"/>
+    <path d="M-42 14L-72 47M42 14L72 47M-22 70L-34 108M22 70L34 108"/>
+    <circle cx="0" cy="26" r="12"/>
+    <path d="M-18 49H18"/>
+  </g>
+
+  <text x="70" y="104" fill="#F5FBFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="750" letter-spacing="-1.5">Ajan Muthuraj</text>
+  <text x="72" y="151" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="650" letter-spacing="1.15">ROBOTICS · HUMANOIDS · SWARM SYSTEMS · AI</text>
+  <text x="72" y="187" fill="#C8D9E6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">If it senses, thinks, moves, learns or collaborates, I want to build it.</text>
+</svg>
