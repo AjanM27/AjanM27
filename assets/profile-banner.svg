@@ -1,5 +1,5 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ajan Muthuraj — Robotics and Autonomous Systems Engineer</title>
+  <title id="title">Ajan Muthuraj — Autonomous Drones and Multi-Robot Systems</title>
   <desc id="desc">A technical banner with a quadrotor, navigation path, and mapping grid.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
@@ -40,6 +40,6 @@
   </g>
 
   <text x="70" y="104" fill="#F5FBFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="750" letter-spacing="-1.5">Ajan Muthuraj</text>
-  <text x="72" y="151" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="650" letter-spacing="1.4">ROBOTICS · AUTONOMY · EMBEDDED SYSTEMS</text>
-  <text x="72" y="187" fill="#C8D9E6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Building intelligent systems that perceive, plan, coordinate, and move.</text>
+  <text x="72" y="151" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="650" letter-spacing="1.25">AUTONOMOUS DRONES · MULTI-ROBOT SYSTEMS</text>
+  <text x="72" y="187" fill="#C8D9E6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Perception, mapping, planning and control for robots in unknown environments.</text>
 </svg>
